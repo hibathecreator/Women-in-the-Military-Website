@@ -1,0 +1,214 @@
+
+.navbar navbar-expand-md navbar-light {
+  color:white;
+  font-weight:bold;
+  font-size:20px;
+
+}
+#slideshow-imgs{
+  width:100%;
+  height:800px;
+
+}
+
+.content-section {
+  width:100%;
+  height: 100%;
+  padding:10px;
+  text-indent:5%;
+
+  margin:2%;
+  margin-left:none;
+
+}
+
+
+.images {
+	position: default;
+	top: 0;
+  color:black;
+  padding: 0 15px;
+  height: 100%;
+  width: 96%;
+  left: 0;
+	text-align: center;
+  background:white;
+  margin:2%;
+
+}
+
+article {
+  background: #f1f1f1;
+  border-radius: 12px;
+  padding: 25px 0 600px;
+}
+
+
+.title-section, .content-section, .sidebar-section {
+  background: #fff;
+  color:black;
+
+}
+
+.title-section {
+  text-align: center;
+  padding: 50px 15px;
+  margin-bottom: 30px;
+  background: #f1f1f1;
+  width:100%;
+  margin:none;
+}
+
+.content-section h2 {
+  margin: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav  {
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1.7em;
+
+    color:white;
+
+}
+
+footer {
+  background-color: rgb(24, 23, 23);
+  color:white;
+  height:100%;
+  padding-bottom:100%;
+  width:100%;
+  margin:none;
+
+
+}
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: rgb(0,0,0);
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.full-width-text {
+  width:100%;
+  background:white;
+  margin-top:2%;
+  margin-bottom:2%;
+
+  margin-right:2%;
+  padding:10px;
+
+}
+
+#centered-text {
+  text-align:center;
+}
+.about-text-img{
+  background-color:white;
+  margin-bottom:2%;
+}
+
+#contact-form {
+  background-color:white;
+  padding:10%;
+  margin:none;
+}
+#quote1 {
+  font-size:1.3em;
+  font-family: cursive;
+  font-weight:bold;
+  color:rgb(167, 78, 78);
+  border: 2px solid grey;
+  padding:10px;
+  margin-bottom:10px;
+}
+#quote2 {
+  font-size:1.3em;
+  font-family: cursive;
+  font-weight:bold;
+  color:rgb(167, 78, 78);
+  border: 2px solid grey;
+  padding:10px;
+  margin-bottom:10px;
+}
+#home-text #home-text-2 {
+  font-size:1.1em;
+
+}
+.nav-link {
+  font-weight:bold;
+  color:white;
+}
+@media screen and (max-width:650px) {
+  #slideshow-imgs {
+    height:500px;
+    width:400px;
+  }
+}
+@media screen and (max-width:420px) {
+  #slideshow-imgs {
+    height:350px;
+    width:400px;
+  }
+}
